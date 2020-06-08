@@ -43,7 +43,7 @@ class TestUserCreation(TestCase):
             )
 
 
-class ProfileTests(TestCase):
+class TestUserProfile(TestCase):
     '''
     Check if extended user model works correctly
     '''

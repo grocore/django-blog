@@ -2,9 +2,9 @@
 {% load crispy_forms_tags %}
 {% block content %}
 <div class="card my-4">
-    <h5 class="card-header">Create a New Account</h5>
+    <h5 class="card-header">Log in to your account</h5>
     <div class="card-body">
-        <form action="" method="POST" class="mb-0">
+        <form action="" method="POST">
             {% csrf_token %}
             {{ form|crispy }}
             <input type="submit" class="btn btn-secondary" value="Sign Up">

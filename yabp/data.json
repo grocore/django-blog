@@ -1,0 +1,22 @@
+[
+{
+    "model": "users.profile",
+    "pk": 1,
+    "fields": {
+        "user": 1,
+        "bio": "Admin's Bio",
+        "birthday": "2020-03-03",
+        "location": "Berlin"
+    }
+},
+{
+    "model": "users.profile",
+    "pk": 5,
+    "fields": {
+        "user": 5,
+        "bio": "User's Bio",
+        "birthday": "2020-02-04",
+        "location": "Kiev"
+    }
+}
+]
